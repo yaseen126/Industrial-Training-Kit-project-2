@@ -1,0 +1,56 @@
+const initialProducts = [
+  { id: "PROD-001", name: "Wireless Mechanical Keyboard", category: "Electronics", price: 129.99 },
+  { id: "PROD-002", name: "Ergonomic Office Chair", category: "Furniture", price: 249.50 },
+  { id: "PROD-003", name: "UltraWide 34-inch Monitor", category: "Electronics", price: 499.00 },
+  { id: "PROD-004", name: "Noise-Canceling Headphones", category: "Audio", price: 189.95 },
+  { id: "PROD-005", name: "Aluminum Desk Lamp", category: "Lighting", price: 45.00 },
+  { id: "PROD-006", name: "USB-C Multiport Docking Station", category: "Electronics", price: 79.99 }
+];
+
+const initialOrders = [
+  {
+    id: "ORD-9021",
+    customerName: "Sophia Martinez",
+    customerEmail: "sophia.m@example.com",
+    productName: "Wireless Mechanical Keyboard",
+    quantity: 1,
+    price: 129.99,
+    status: "Delivered",
+    createdAt: "2026-10-01T14:32:00.000Z"
+  },
+  {
+    id: "ORD-9022",
+    customerName: "Ethan Vance",
+    customerEmail: "ethan.vance@techcorp.io",
+    productName: "UltraWide 34-inch Monitor",
+    quantity: 2,
+    price: 499.00,
+    status: "Shipped",
+    createdAt: "2026-10-02T09:12:00.000Z"
+  },
+  {
+    id: "ORD-9023",
+    customerName: "Olivia Chen",
+    customerEmail: "olivia.c@designlab.co",
+    productName: "Ergonomic Office Chair",
+    quantity: 1,
+    price: 249.50,
+    status: "Processing",
+    createdAt: "2026-10-03T16:45:00.000Z"
+  },
+  {
+    id: "ORD-9024",
+    customerName: "Marcus Brody",
+    customerEmail: "m.brody@georgetown.edu",
+    productName: "Noise-Canceling Headphones",
+    quantity: 1,
+    price: 189.95,
+    status: "Pending",
+    createdAt: "2026-10-04T11:15:00.000Z"
+  }
+];
+
+module.exports = {
+  initialProducts,
+  initialOrders
+};
